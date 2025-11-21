@@ -1,0 +1,8 @@
+{
+    "name": "Power BI Visual Dev",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
+    "features": {
+        "ghcr.io/devcontainers/features/npm:1": {}
+    },
+    "postCreateCommand": "npm install -g powerbi-visuals-tools"
+}
